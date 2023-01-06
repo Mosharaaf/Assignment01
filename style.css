@@ -1,13 +1,15 @@
 header{
-    position: absolute;
-width: 1600px;
-height: 808px;
-left: 0px;
-top: 0px;
-background: url("/images/banner/banner3.png");
+    /* position: absolute; */
+ width: 1600px;
+height: 808px; 
+ left: 0px;
+ top: 0px;
+background: url("../images/banner/banner3.png");
+background-size: 100%;
 background-repeat: no-repeat;
 padding-top: 180px;
 padding-left: 100px;
+margin-bottom: 10px;
 }
 *{
     margin: 0;
@@ -39,4 +41,38 @@ color: #FFFFFF;
 .btn-contact{
     margin-left: 1px;
     border-radius: 5px;
+}
+/* main ,section01 */
+.content{
+    display: flex;
+    gap: 87px;
+
+}
+.profile-img{
+    margin-left:206px;
+
+}
+.profile-description{
+    margin-top: 250px;
+
+}
+.description{
+    margin-top: 24px;
+    margin-bottom: 11px;
+    color: #444343;
+}
+.list{
+display: block;
+
+}
+ul{
+    margin-left: 0;
+
+}
+li{
+    list-style: none;
+    margin-bottom: 8px;
+    color: #444343;
+
+
 }
