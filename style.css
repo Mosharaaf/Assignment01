@@ -42,7 +42,7 @@ color: #FFFFFF;
     margin-left: 1px;
     border-radius: 5px;
 }
-/* main ,section01 */
+                         /* main ,section01 */
 .content{
     display: flex;
     gap: 87px;
@@ -75,4 +75,71 @@ li{
     color: #444343;
 
 
+}
+  /*main section02  */
+.my-plans{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    font-size: 40px;
+
+}
+.my-plan-list{
+  display: flex;
+  gap: 120px;  
+  justify-content:center;
+}
+ .plan-img{
+    margin-bottom: 7px;
+    padding: 20px;
+    margin-left: 20px;
+ } 
+
+.plan-title{
+font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+}
+.plan-des{
+font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+color: #737272;
+}
+.last-section{}
+
+.last-div{
+    margin: 130px 230px;
+    background-repeat: no-repeat;
+    /* background-image: url("/images/watch.png"); */
+border-radius: 8px;
+background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+height: 300px;
+
+}
+.last-div2{
+color:#FFFFFF;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+border-radius: 8px;
+padding-left: 60px;
+padding-top: 46px;
+}
+.call-now-btn{
+padding-left: 60px;
+
+}
+.blue-button{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005FAC;
+    /* padding: 36px 21px; */
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: 0px;
 }
