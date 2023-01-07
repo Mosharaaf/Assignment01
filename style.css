@@ -150,7 +150,7 @@ footer{
 }
 .footer-flex{
     display: flex;
-    gap: 200px;
+    gap: 331px;
 }
 .footer-fututre{
     padding-left: 230px;
@@ -194,4 +194,13 @@ footer{
 .footer-subscribe{
     margin-top: 130px;
 }
-.{}
+#ft5{
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 29px;
+color: #FFFFFF;
+}
+.subscribe-title{
+    margin-bottom: 27px;
+}
